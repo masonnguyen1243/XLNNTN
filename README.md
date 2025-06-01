@@ -7,4 +7,7 @@
    ```
 
 2. Chạy dự án:
+
+   ```sh
    streamlit run app.py
+   ```
