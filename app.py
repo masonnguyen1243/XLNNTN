@@ -45,7 +45,7 @@ def get_recommendations(title, cosine_sim=cosine_sim):
 
 # Hàm lấy poster của bộ phim từ API TMDB
 def fetch_poster(movie_id):
-    api_key = '7b995d3c6fd91a2284b4ad8cb390c7b8'  # Thay thế bằng khóa API của bạn
+    api_key = 'c7b978184a5a0bb381df2faeefa967b4'  #Khóa API 
     url = f'https://api.themoviedb.org/3/movie/{movie_id}?api_key={api_key}'  # URL yêu cầu API để lấy thông tin phim
     response = requests.get(url)  # Gửi yêu cầu HTTP đến TMDB API
     data = response.json()  # Chuyển đổi phản hồi từ API sang định dạng JSON
